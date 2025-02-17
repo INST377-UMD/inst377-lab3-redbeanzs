@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+    <header>
+        <h1>Rock-Paper-Scissors Game</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Home</a></li>
+            <li><a href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/">Rules</a></li>
+            <li><a href="https://www.rpsgame.org/room?id=t34db">Play</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <main>
+            <h2>Play the Game</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="choice">Choose:</label>
+                <select id="choice" name="choice">
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+                
+                <button type="submit">Play</button>
+            </form>
+        </main>
+        
+        <aside>
+            <h2>Game Rules</h2>
+            <p>Rock beats Scissors.</p>
+            <p>Scissors beat Paper.</p>
+            <p>Paper beats Rock.</p>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Rock-Paper-Scissors Game</p>
+    </footer>
+</body>
+</html>
